@@ -193,7 +193,7 @@ div.cdm.expanded.active {
 }
 
 div.cdm.expanded.active div.cdmHeader a.title {
-	color : #0088cc;
+	color : black;
 }
 
 div.cdm.expanded.Unread div.cdmHeader a.title {

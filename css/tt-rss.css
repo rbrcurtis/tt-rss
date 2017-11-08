@@ -5,6 +5,10 @@ body#ttrssMain, body#ttrssPrefs, body#ttrssLogin, body {
 	padding : 0px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 14px;
+  max-width: 1280px;
+  margin: auto;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
 }
 
 body#ttrssMain {
