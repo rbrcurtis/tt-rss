@@ -868,6 +868,11 @@ function hotkey_handler(e) {
 	if (keycode == 16) return; // ignore lone shift
 	if (keycode == 17) return; // ignore lone ctrl
 
+  if (keycode == 32) {
+    var body = document.getElementById('headlines-frame');
+    body.scrollTop = body.scrollTop + (window.innerHeight * .5);
+  }
+
 	var hotkeys = getInitParam("hotkeys");
 	var keychar = String.fromCharCode(keycode).toLowerCase();
 
